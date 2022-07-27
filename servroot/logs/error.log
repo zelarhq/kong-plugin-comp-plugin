@@ -1,0 +1,182 @@
+2022/07/27 18:48:58 [debug] 111#0: [lua] globalpatches.lua:10: installing the globalpatches
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:460: init(): [dns-client] (re)configuring dns client
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:465: init(): [dns-client] staleTtl = 4
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:469: init(): [dns-client] noSynchronisation = nil
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:488: init(): [dns-client] query order = LAST, SRV, A, AAAA, CNAME
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:528: init(): [dns-client] adding A-record from 'hosts' file: 06b201582a7e = 172.23.0.4
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:543: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allrouters = [ff02::2]
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:543: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-allnodes = [ff02::1]
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:543: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-mcastprefix = [ff00::0]
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:543: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localhost = [::1]
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:543: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-loopback = [::1]
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:528: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:543: init(): [dns-client] adding AAAA-record from 'hosts' file: localhost = [::1]
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:543: init(): [dns-client] adding AAAA-record from 'hosts' file: ip6-localnet = [fe00::0]
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:552: init(): [dns-client] validTtl = nil
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:593: init(): [dns-client] nameserver 127.0.0.11
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:598: init(): [dns-client] attempts = 5
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:605: init(): [dns-client] no_random = true
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:614: init(): [dns-client] timeout = 2000 ms
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:618: init(): [dns-client] ndots = 0
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:620: init(): [dns-client] search = 
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:633: init(): [dns-client] badTtl = 1 s
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:635: init(): [dns-client] emptyTtl = 30 s
+2022/07/27 18:48:58 [warn] 111#0: [lua] deprecation.lua:36: deprecation_func(): Support for Cassandra is deprecated. Please refer to https://konghq.com/blog/cassandra-support-deprecated (deprecated after 2.7, scheduled for removal in 4.0)
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:460: init(): [dns-client] (re)configuring dns client
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:465: init(): [dns-client] staleTtl = 4
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:469: init(): [dns-client] noSynchronisation = false
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:488: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:528: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:552: init(): [dns-client] validTtl = nil
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:593: init(): [dns-client] nameserver 127.0.0.11:53
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:598: init(): [dns-client] attempts = 5
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:605: init(): [dns-client] no_random = true
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:614: init(): [dns-client] timeout = 2000 ms
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:618: init(): [dns-client] ndots = 0
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:620: init(): [dns-client] search = 
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:633: init(): [dns-client] badTtl = 1 s
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:635: init(): [dns-client] emptyTtl = 30 s
+2022/07/27 18:48:58 [debug] 111#0: [lua] globalpatches.lua:270: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:460: init(): [dns-client] (re)configuring dns client
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:465: init(): [dns-client] staleTtl = 4
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:469: init(): [dns-client] noSynchronisation = true
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:488: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:528: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:552: init(): [dns-client] validTtl = nil
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:593: init(): [dns-client] nameserver 127.0.0.11:53
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:598: init(): [dns-client] attempts = 5
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:605: init(): [dns-client] no_random = true
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:614: init(): [dns-client] timeout = 2000 ms
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:618: init(): [dns-client] ndots = 0
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:620: init(): [dns-client] search = 
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:633: init(): [dns-client] badTtl = 1 s
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:635: init(): [dns-client] emptyTtl = 30 s
+2022/07/27 18:48:58 [debug] 111#0: [lua] cluster.lua:569: refresh(): [lua-cassandra] refresh: attempting to acquire lock... (ver_refresh=0, timeout=30)
+2022/07/27 18:48:58 [debug] 111#0: [lua] cluster.lua:585: refresh(): [lua-cassandra] refresh: lock acquired, fetching topology... (ver_refresh=1)
+2022/07/27 18:48:58 [warn] 111#0: [lua] cluster.lua:618: refresh(): [lua-cassandra] found contact point with '0.0.0.0' as rpc_address, using '172.23.0.3' to contact it instead. If this is incorrect you should avoid using '0.0.0.0' in rpc_address
+2022/07/27 18:48:58 [debug] 111#0: [lua] cluster.lua:634: refresh(): [lua-cassandra] refresh: cluster topology fetched (ver_refresh=1, n_peers=1)
+2022/07/27 18:48:58 [debug] 111#0: [lua] cluster.lua:678: refresh(): [lua-cassandra] refresh: changes detected in topology: yes (ver_refresh=1)
+2022/07/27 18:48:58 [debug] 111#0: [lua] cluster.lua:732: refresh(): [lua-cassandra] refresh: cluster topology refreshed: yes (ver_refresh=1, ver_topo=1)
+2022/07/27 18:48:58 [debug] 111#0: [lua] cluster.lua:481: next_coordinator(): [lua-cassandra] load balancing policy chose host at 172.23.0.3
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:460: init(): [dns-client] (re)configuring dns client
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:465: init(): [dns-client] staleTtl = 4
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:469: init(): [dns-client] noSynchronisation = false
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:488: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:528: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:552: init(): [dns-client] validTtl = nil
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:593: init(): [dns-client] nameserver 127.0.0.11:53
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:598: init(): [dns-client] attempts = 5
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:605: init(): [dns-client] no_random = true
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:614: init(): [dns-client] timeout = 2000 ms
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:618: init(): [dns-client] ndots = 0
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:620: init(): [dns-client] search = 
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:633: init(): [dns-client] badTtl = 1 s
+2022/07/27 18:48:58 [debug] 111#0: [lua] client.lua:635: init(): [dns-client] emptyTtl = 30 s
+2022/07/27 18:48:58 [debug] 111#0: [lua] vaults.lua:52: load_vault(): Loading vault: env
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: jwt
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'jwt.jwt_secrets'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: acl
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'acl.acls'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: correlation-id
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: cors
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: oauth2
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'oauth2.oauth2_credentials'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'oauth2.oauth2_authorization_codes'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'oauth2.oauth2_tokens'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: tcp-log
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: udp-log
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: file-log
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: http-log
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: key-auth
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'key-auth.keyauth_credentials'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: hmac-auth
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'hmac-auth.hmacauth_credentials'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: basic-auth
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'basic-auth.basicauth_credentials'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: ip-restriction
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: request-transformer
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: response-transformer
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: request-size-limiting
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: rate-limiting
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'rate-limiting.ratelimiting_metrics'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: response-ratelimiting
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: syslog
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: loggly
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: datadog
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: ldap-auth
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: statsd
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: bot-detection
+2022/07/27 18:48:58 [debug] 111#0: [kong] iam-ecs-credentials.lua:40 No ECS environment variables found for IAM
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: aws-lambda
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: request-termination
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: prometheus
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: proxy-cache
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: session
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'session.sessions'
+2022/07/27 18:48:58 [debug] 111#0: [lua] openssl.lua:5: [acme] using ffi, OpenSSL version linked: 101010ef
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: acme
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:203: loader_fn(): Loading custom plugin entity: 'acme.acme_storage'
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: grpc-gateway
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: grpc-web
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: pre-function
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: post-function
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: azure-functions
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: zipkin
+2022/07/27 18:48:58 [debug] 111#0: [lua] plugins.lua:245: load_plugin(): Loading plugin: comp-plugin
+2022/07/27 18:48:58 [notice] 111#0: using the "epoll" event method
+2022/07/27 18:48:58 [notice] 111#0: openresty/1.19.9.1
+2022/07/27 18:48:58 [notice] 111#0: built by gcc 6.4.0 (Alpine 6.4.0) 
+2022/07/27 18:48:58 [notice] 111#0: OS: Linux 5.10.104-linuxkit
+2022/07/27 18:48:58 [notice] 111#0: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/07/27 18:48:58 [notice] 116#0: start worker processes
+2022/07/27 18:48:58 [notice] 116#0: start worker process 117
+2022/07/27 18:48:58 [debug] 117#0: *1 [lua] globalpatches.lua:270: randomseed(): seeding PRNG from OpenSSL RAND_bytes()
+2022/07/27 18:48:58 [debug] 117#0: *1 [lua] events.lua:211: do_event_json(): worker-events: handling event; source=resty-worker-events, event=started, pid=117, data=nil
+2022/07/27 18:48:58 [warn] 117#0: *1 [lua] socket.lua:162: tcp(): no support for cosockets in this context, falling back to LuaSocket, context: init_worker_by_lua*
+2022/07/27 18:48:58 [debug] 117#0: *1 [lua] cluster.lua:481: next_coordinator(): [lua-cassandra] load balancing policy chose host at 172.23.0.3
+2022/07/27 18:48:58 [notice] 117#0: *1 [lua] warmup.lua:104: single_dao(): Preloading 'services' into the core_cache..., context: init_worker_by_lua*
+2022/07/27 18:48:58 [warn] 117#0: *1 [lua] socket.lua:162: tcp(): no support for cosockets in this context, falling back to LuaSocket, context: init_worker_by_lua*
+2022/07/27 18:48:58 [debug] 117#0: *1 [lua] cluster.lua:481: next_coordinator(): [lua-cassandra] load balancing policy chose host at 172.23.0.3
+2022/07/27 18:48:58 [notice] 117#0: *1 [lua] warmup.lua:145: single_dao(): finished preloading 'services' into the core_cache (in 0ms), context: init_worker_by_lua*
+2022/07/27 18:48:58 [info] 117#0: *1 [kong] handler.lua:57 [acme] acme renew timer started on worker 0, context: init_worker_by_lua*
+2022/07/27 18:48:58 [debug] 117#0: *1 [kong] handler.lua:10 [comp-plugin] 'init_worker' handler started
+2022/07/27 18:48:58 [debug] 117#0: *1 [lua] counter.lua:70: new(): start timer for shdict prometheus_metrics on worker 0
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:460: init(): [dns-client] (re)configuring dns client
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:465: init(): [dns-client] staleTtl = 4
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:469: init(): [dns-client] noSynchronisation = false
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:488: init(): [dns-client] query order = LAST, SRV, A, CNAME
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:528: init(): [dns-client] adding A-record from 'hosts' file: localhost = 127.0.0.1
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:552: init(): [dns-client] validTtl = nil
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:593: init(): [dns-client] nameserver 127.0.0.11:53
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:598: init(): [dns-client] attempts = 5
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:605: init(): [dns-client] no_random = true
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:614: init(): [dns-client] timeout = 2000 ms
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:618: init(): [dns-client] ndots = 0
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:620: init(): [dns-client] search = 
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:633: init(): [dns-client] badTtl = 1 s
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] client.lua:635: init(): [dns-client] emptyTtl = 30 s
+2022/07/27 18:49:00 [debug] 117#0: *2 [kong] handler.lua:?:14 [comp-plugin]------------------------------------------------------------------------------------+
+2022/07/27 18:49:00 [debug] 117#0: *2 |{                                                                                                                       |
+2022/07/27 18:49:00 [debug] 117#0: *2 |  __key__ = "plugins:comp-plugin:f22873f4-30bb-456a-9c60-c8f413cb2557::::d82b01f7-a058-4eb0-ae9a-1df6451fcb5f",         |
+2022/07/27 18:49:00 [debug] 117#0: *2 |  __seq__ = 0,                                                                                                          |
+2022/07/27 18:49:00 [debug] 117#0: *2 |  aggregate = false,                                                                                                    |
+2022/07/27 18:49:00 [debug] 117#0: *2 |  destinations = { {                                                                                                    |
+2022/07/27 18:49:00 [debug] 117#0: *2 |      body = " ",                                                                                                       |
+2022/07/27 18:49:00 [debug] 117#0: *2 |      headers = {},                                                                                                     |
+2022/07/27 18:49:00 [debug] 117#0: *2 |      method = "GET",                                                                                                   |
+2022/07/27 18:49:00 [debug] 117#0: *2 |      uri = "https://httpbin.org/headers"                                                                               |
+2022/07/27 18:49:00 [debug] 117#0: *2 |    }, {                                                                                                                |
+2022/07/27 18:49:00 [debug] 117#0: *2 |      body = " ",                                                                                                       |
+2022/07/27 18:49:00 [debug] 117#0: *2 |      headers = {},                                                                                                     |
+2022/07/27 18:49:00 [debug] 117#0: *2 |      method = "GET",                                                                                                   |
+2022/07/27 18:49:00 [debug] 117#0: *2 |      uri = "https://62c52085a361f725127aecd2.mockapi.io/users"                                                         |
+2022/07/27 18:49:00 [debug] 117#0: *2 |    } },                                                                                                                |
+2022/07/27 18:49:00 [debug] 117#0: *2 |  route_id = "f22873f4-30bb-456a-9c60-c8f413cb2557"                                                                     |
+2022/07/27 18:49:00 [debug] 117#0: *2 |}                                                                                                                       |
+2022/07/27 18:49:00 [debug] 117#0: *2 +------------------------------------------------------------------------------------------------------------------------+
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] cluster.lua:481: next_coordinator(): [lua-cassandra] load balancing policy chose host at 172.23.0.3
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] cluster.lua:481: next_coordinator(): [lua-cassandra] load balancing policy chose host at 172.23.0.3
+2022/07/27 18:49:00 [debug] 117#0: *5 [lua] balancers.lua:263: create_balancers(): initialized 0 balancer(s), 0 error(s)
+2022/07/27 18:49:02 [info] 117#0: *2 client 127.0.0.1 closed keepalive connection
+2022/07/27 18:49:02 [notice] 116#0: signal 15 (SIGTERM) received from 119, exiting
+2022/07/27 18:49:02 [notice] 117#0: exiting
